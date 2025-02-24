@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <br>
+    <form action="/action">
+        <label for="name">Name : </label>
+        <input type="text" placeholder="Enter Name" id="name" name="name">
+        <br><br>
+        <label for="password">Password : </label>
+        <input type="password" placeholder="Enter Password" id="password" name="password">
+        <br><br>
+        <label for="confirm-pass">Confirm Password : </label>
+        <input type="password" placeholder="Confirm Password" id="confirm-pass" name="confirm-pass">
+        <br><br>
+        <label for="ph-no">Phone Number : </label>
+        <input type="number" placeholder="Enter Phone Number" id="ph-no" name="ph-no">
+        <br><br>
+        <label for="email">Email ID : </label>
+        <input type="email" placeholder="Enter Email ID" id="email" name="email">
+        <br><br>
+        <label for="dob">Date of Birth : </label>
+        <input type="date" placeholder="Enter DOB" id="dob" name="dob">
+        <br><br>
+        <label>Gender: </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br><br>
+        <label for="profession">Profession: </label>
+        <br>
+        <select name="profession" id="profession">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="work">Working Professional</option>
+            <option value="beginner" selected>Beginner</option>
+        </select>
+        <br><br>
+        <label for="salary">Salary: </label>
+        <input type="range" name="salary" min="10000" max="1000000" step="50000" value="100000">
+        <br><br>
+        <label for="bio">Bio/Description: </label>
+        <br><br>
+        <textarea name="bio" id="bio" cols="30" rows="7" placeholder="Write about yourself"></textarea>
+        <br><br>
+        <label><b>Note</b></label>
+        <br>
+        <input type="checkbox" id="agreetc" name="tc" value="agreetc">
+        <label for="agreetc">I agree to all the Terms & Conditons</label>
+        <br>
+        <input type="checkbox" id="newsletter" name="tc" value="newsletter" checked>
+        <label for="newsletter">Use my email-id for future communications and subscribe to our weekly newsletter</label>
+        <br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br>
+
+    </form>
+
+    <hr>
+    <form action="https://www.google.com/search">
+        <label for="query">Enter search query : </label>
+        <input type="text" placeholder="search on google" id="query" name="q">
+        <button type="submit">Search</button>
+    </form>
+
+
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <label for="query">Enter search query : </label>
+        <input type="text" placeholder="search on youtube" id="query" name="search_query">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
