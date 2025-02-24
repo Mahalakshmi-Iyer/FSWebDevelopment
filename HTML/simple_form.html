@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Info Form</title>
+</head>
+<body>
+    <form action="/server">
+        <br>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label>Sex: </label>
+        <input type="radio" id="male" name="sex" value="m">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="f">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="india">India</option>
+            <option value="nepal">Nepal</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br><br>
+        <label for="msg">Message: </label>
+        <br>
+        <textarea name="msg" id="msg" cols="25" rows="5"></textarea>
+        <br><br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe?</label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
