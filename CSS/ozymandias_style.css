@@ -1,0 +1,38 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: red;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: #a52a2a;
+    line-height: 30px;
+}
+
+.poem-content{
+    text-align: center;
+}
+
+a{
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: #000;
+}
+
+#imp{
+    text-decoration: underline;
+}
