@@ -5,12 +5,13 @@
 
 /* element selector */
 h1,h3{
-    color: #b92b27;
+    color: #b92b27 !important;
 }
 
 /* id selector */
 #login{
     background-color: white;
+    color: #b92b27;
 }
 
 #signup{
@@ -66,4 +67,33 @@ input[type="password"]{
 
 div[id="myId"] p{
     color:green;
+}
+
+/* pseudo class */
+h3:hover{
+    zoom: 1.1;
+}
+
+button:active{
+    background-color: cornsilk;
+    color: crimson;
+}
+
+input[type="radio"]:checked + label[for="yes"]{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label[for="no"]{
+    font-weight: bold;
+    color: crimson;
+}
+
+.post-block:nth-of-type(2n-1){
+    background-color: cornsilk;
+}
+
+/* pseudo element */
+p::selection{
+    background-color:tan;
 }
