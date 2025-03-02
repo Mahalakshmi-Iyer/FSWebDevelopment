@@ -1,0 +1,30 @@
+div{
+    height: 150px;
+    width : 500px;
+    background-color:lightblue;
+    border-width: 2px;
+    border-style:solid;
+    border-color: cyan;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 20px 15px 20px 15px;
+    margin-bottom: 25px;
+}
+
+h1{
+    border: 3px dashed lightgreen;
+    width: 250px;
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-radius: 50%;
+    padding: 0 25px;
+    margin: 10px 30px 10px;
+}
+
+button{
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px 2px 5px 2px;
+}
