@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.key{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+}
