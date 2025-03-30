@@ -1,0 +1,11 @@
+h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+i{
+    position: relative;
+    bottom: 7px;
+}
