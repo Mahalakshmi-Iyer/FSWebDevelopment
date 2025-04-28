@@ -1,0 +1,15 @@
+body {
+  background-color: lightpink;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.post {
+  width: 15%;
+  border: 2px solid hotpink;
+  padding: 5px;
+  margin: 5px;
+}

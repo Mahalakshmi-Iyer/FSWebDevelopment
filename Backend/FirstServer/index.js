@@ -32,11 +32,11 @@ app.get('/search', (req, res) => {
 
 app.listen(port, () => {
     console.log(`app listening on port ${port}`);
-    // app.use((req, res) => {
-    //     console.log("request received");
+    app.use((req, res) => {
+        console.log("request received");
 
-    //     res.send("This is a basic response");
-    //     res.send({name:"Mahalakshmi Iyer", age:20});
-    //     res.send("<h1>Hello World! from Mahalakshmi Iyer</h1>");
-    // });
+        // res.send("This is a basic response");
+        // res.send({name:"Mahalakshmi Iyer", age:20});
+        // res.send("<h1>Hello World! from Mahalakshmi Iyer</h1>");
+    });
 });
