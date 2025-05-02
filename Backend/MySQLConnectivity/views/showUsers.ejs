@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Users</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>User Details</h1>
+    <form action="/users/new" method="GET"><button>Create New User</button></form>
+    <br /><br />
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Email</th>
+      </tr>
+      <% for(let i=0; i<data.length; i++){ %>
+      <tr>
+        <td><%= data[i].id %></td>
+        <td><%= data[i].username %></td>
+        <td><%= data[i].email %></td>
+        <td><form action="/users/<%= data[i].id%>/edit"><button>Edit username</button></form></td>
+        <td><form action="/users/<%= data[i].id%>/delete"><button>Delete user</button></form></td>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
